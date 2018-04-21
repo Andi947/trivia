@@ -1,8 +1,8 @@
 
 package com.adaptionsoft.games.trivia.runner;
-import java.util.Random;
-
 import com.adaptionsoft.games.uglytrivia.Game;
+
+import java.util.Random;
 
 
 public class GameRunner {
@@ -19,7 +19,7 @@ public class GameRunner {
 		Random rand = new Random();
 	
 		do {
-			
+
 			aGame.roll(rand.nextInt(5) + 1);
 			
 			if (rand.nextInt(9) == 7) {
